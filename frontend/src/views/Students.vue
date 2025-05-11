@@ -304,7 +304,7 @@ export default {
         };
 
         const getImageUrl = (image) => {
-            return image ? ${image} : '/images/placeholder.jpg';
+            return image ? `${image}` : '/images/placeholder.jpg';
         };
 
         const formatDate = (dateString) => {
